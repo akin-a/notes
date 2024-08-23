@@ -35,17 +35,17 @@ Amazon Machine Image (AMI)
 
 EC2 instance types
 ------------------
-- General Purpose Instance : balance of compute, memory, networking.
+- _General Purpose_ Instance : balance of compute, memory, networking.
   Ex: t2.micro, m5.large etc.,
-- Compute Optimized : For applications that require high performance processors, suited for workloads such as batch
+- _Compute Optimized_ : For applications that require high performance processors, suited for workloads such as batch
   processing, scientific modeling and other compute intensive application.
   Ex: c6g.large, c5.large etc.,
-- Memory Optimized : memory intensive workloads such as real-time big data analytics, in-memory databases etc.
+- _Memory Optimized_ : memory intensive workloads such as real-time big data analytics, in-memory databases etc.
   Ex: r5.large, x1.16xlarge etc.,
-- Accelerated Computing Instance : These types of instances provide hardware acceleration with the use of GPUs and are suited for 
+- _Accelerated Computing_ Instance : These types of instances provide hardware acceleration with the use of GPUs and are suited for 
   workloads such as Machine or Deep learning, seismic analysis or workloads requiring high floating-point number calculations.
   Ex: p3.2xlarge, p2.xlarge, etc.,
-- Storage Optimized : suited for workloads such as NoSQL databases, data warehousing or workloads requiring high disk performance.
+- _Storage Optimized_ : suited for workloads such as NoSQL databases, data warehousing or workloads requiring high disk performance.
   Ex: i3.large, d2.xlarge etc.,
   
 
