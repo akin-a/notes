@@ -63,3 +63,15 @@ Based on the **tenancy of the underlying hardware** where the EC2 instances will
 - _Shared_            : Default, underlying hardwares shared with other AWS customers, but EC2 instance is isolated.
 - _Dedicated hosts_   : Entire physical server dedicated to an user, full visibility on sockets&physical cores, full control.
 - _Dedicated Instance_: Entire physical server dedicated to an user but might be shared in same AWS account, no visibility on socket etc.
+
+EC2 Instance storage
+--------------------
+### EBS Volumes ###
+------------------
+- Generally, this is the root device instance (except for some)
+- Provides durable block level storage for EC2 instances.
+
+### Instance storage Volumes ###
+---------------------------------
+- Temporary block level storage
+- Data is lost when the instance is stopped / restarted.
