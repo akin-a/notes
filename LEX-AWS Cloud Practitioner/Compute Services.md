@@ -52,3 +52,14 @@ EC2 Instance Launch Types and Tenancy
 -------------------------------------
 ### Launch Types ###
 
+Based on how you want to pay for the EC2 Instances, there are different EC2 Instance Launch types
+- _On-Demand Instance_  : Pay only for duration used, no long term commitment, suited for short term irregular work loads. 
+- _Reserved Instance _  : For predictable long running workloads (like 1 or 3 years), upto 72% discount compared to on demand.
+- _Spot Instance_       : Unused EC2 instances, purchased at very low cost, upto 09% discount compared to on demand.
+
+### Tenancy ###
+
+Based on the **tenancy of the underlying hardware** where the EC2 instances will be launched, there are 3 different launch types.
+- _Shared_            : Default, underlying hardwares shared with other AWS customers, but EC2 instance is isolated.
+- _Dedicated hosts_   : Entire physical server dedicated to an user, full visibility on sockets&physical cores, full control.
+- _Dedicated Instance_: Entire physical server dedicated to an user but might be shared in same AWS account, no visibility on socket etc.
