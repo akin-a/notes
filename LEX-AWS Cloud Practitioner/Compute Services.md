@@ -67,11 +67,11 @@ Based on the **tenancy of the underlying hardware** where the EC2 instances will
 EC2 Instance storage
 --------------------
 ### EBS Volumes ###
-------------------
+
 - Generally, this is the root device instance (except for some)
 - Provides durable block level storage for EC2 instances.
 
 ### Instance storage Volumes ###
----------------------------------
+
 - Temporary block level storage
 - Data is lost when the instance is stopped / restarted.
