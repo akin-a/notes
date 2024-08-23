@@ -31,4 +31,22 @@ Amazon Machine Image (AMI)
   - The architecture, whether 32-bit or 64-bit is required.
   - The AMI provider.
   - and, any other additional software requirements.
+- Ex. Amazon Linux 2, Amazon Linux AMI, Also Custom AMIs
+
+EC2 instance types
+------------------
+- General Purpose Instance : balance of compute, memory, networking.
+  Ex: t2.micro, m5.large etc.,
+- Compute Optimized : For applications that require high performance processors, suited for workloads such as batch
+  processing, scientific modeling and other compute intensive application.
+  Ex: c6g.large, c5.large etc.,
+- Memory Optimized : memory intensive workloads such as real-time big data analytics, in-memory databases etc.
+  Ex: r5.large, x1.16xlarge etc.,
+- Accelerated Computing Instance : These types of instances provide hardware acceleration with the use of GPUs and are suited for 
+  workloads such as Machine or Deep learning, seismic analysis or workloads requiring high floating-point number calculations.
+  Ex: p3.2xlarge, p2.xlarge, etc.,
+- Storage Optimized : suited for workloads such as NoSQL databases, data warehousing or workloads requiring high disk performance.
+  Ex: i3.large, d2.xlarge etc.,
+  
+
 
