@@ -48,5 +48,7 @@ EC2 instance types
 - _Storage Optimized_ : suited for workloads such as NoSQL databases, data warehousing or workloads requiring high disk performance.
   Ex: i3.large, d2.xlarge etc.,
   
-
+EC2 Instance Launch Types and Tenancy
+-------------------------------------
+### Launch Types ###
 
