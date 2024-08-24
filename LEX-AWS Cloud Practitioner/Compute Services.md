@@ -79,10 +79,10 @@ EC2 Instance storage
 EC2 Placement Groups
 --------------------
 Default behaviour: Instance **spread across** the underlying **hardwares** in a single AZ. But there are other strategies also.
-- _ Cluster strategy_ : Hardwares tightly grouped in a single AZ, low latency issues.
-- _ Partition strategy_ : to spread instances across logical partitions such that groups of instances in one partition do not share the
+- _Cluster strategy_ : Hardwares tightly grouped in a single AZ, low latency issues._
+- _Partition strategy_ : to spread instances across logical partitions such that groups of instances in one partition do not share the
 underlying hardware with other groups
-- _ Spread strategy_ : strictly places a group of instances across distinct underlying hardware to reduce correlated failure.
+- _Spread strategy_ : strictly places a group of instances across distinct underlying hardware to reduce correlated failure.
 
 EC2 Security Groups
 --------------------
