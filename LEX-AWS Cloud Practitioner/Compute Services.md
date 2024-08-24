@@ -75,3 +75,17 @@ EC2 Instance storage
 
 - Temporary block level storage
 - Data is lost when the instance is stopped / restarted.
+
+EC2 Placement Groups
+--------------------
+Default behaviour: Instance **spread across** the underlying **hardwares** in a single AZ. But there are other strategies also.
+- _ Cluster strategy_ : Hardwares tightly grouped in a single AZ, low latency issues.
+- _ Partition strategy_ : to spread instances across logical partitions such that groups of instances in one partition do not share the
+underlying hardware with other groups
+- _ Spread strategy_ : strictly places a group of instances across distinct underlying hardware to reduce correlated failure.
+
+EC2 Security Groups
+--------------------
+-  When an EC2 instance is launched, a **virtual firewall** called Security group envelopes the instance
+-  This controls the _incoming and outgoing traffic_ using inbound and outbound rules.
+-  It is **independent of the EC2** instance and part of **AWS VPC** infra.
