@@ -108,5 +108,5 @@ EC2 Autoscaling
   - _Manual_ : Manual value for the size of auto scaling
   - _Dynamic_: Based on demand
   - _Scheduled_ : Scheduled for a particular day/time
-  - 
+    
   
