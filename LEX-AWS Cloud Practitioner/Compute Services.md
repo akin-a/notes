@@ -89,3 +89,24 @@ EC2 Security Groups
 -  When an EC2 instance is launched, a **virtual firewall** called Security group envelopes the instance
 -  This controls the _incoming and outgoing traffic_ using inbound and outbound rules.
 -  It is **independent of the EC2** instance and part of **AWS VPC** infra.
+
+EC2 Autoscaling
+---------------
+ Maintain high availability of app by Automatic scaling of the instances.
+ 
+- Improves fault tolerance : Delete unhealthy instances
+- lower cost : resources added only when its required
+
+### Auto Scaling Groups (ASG) ###
+
+- Logical collection of EC2 instance
+- We can set _Minimum size_ (least number of EC2 instance), _Desired Capacity_ and _Maximum Size_ for a group.
+- _Launch configuration_ : AMI ID, Instance type, key-pair, security group etc. (just like a ec2 instance configuration)
+- **Launch Template** : Launch configuration  +  extra features   -> Launch template is the better one to create a ASG
+- First we need to create a Launch Template, and with that we have to create an ASG.
+- Types of scaling:
+  - _Manual_ : Manual value for the size of auto scaling
+  - _Dynamic_: Based on demand
+  - _Scheduled_ : Scheduled for a particular day/time
+  - 
+  
