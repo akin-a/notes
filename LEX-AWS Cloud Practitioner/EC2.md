@@ -120,7 +120,7 @@ Amazon Elastic Load Balancing (ELB)
     - _Gateway Load Balancer_ : Listens for all IP Packets.
 
 Elastic Beanstalk (EBS)
------------------------
+=======================
 
 Beanstalk make use of EC2 instances, Auto scaling, RDS, Load balancing etc, to _create an environment_ for the application to be deployed and run. Its a PaaS.
 
