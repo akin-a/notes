@@ -109,4 +109,32 @@ EC2 Autoscaling
   - _Dynamic_: Based on demand
   - _Scheduled_ : Scheduled for a particular day/time
     
-  
+Amazon Elastic Load Balancing (ELB)
+------------------------------------
+  A scalable solution from AWS which can automatically distribute traffic across multiple targets, such as EC2 Instances, containers, IP Addresses, and Lambda Function.
+  - High Availability : Automatically distribute traffic across multiple targets.
+  - E L B offers **health checks**, which can detect unhealthy targets, and stops sending traffic to them, for a consistent user experience.
+  - Types of Load Balancer:
+    - _Application Load Balancer_ : HTTP , HTTPs hosted web application
+    - _Network Load Balancer_ : TCP and UDP traffic
+    - _Gateway Load Balancer_ : Listens for all IP Packets.
+
+Elastic Beanstalk (EBS)
+-----------------------
+
+Beanstalk make use of EC2 instances, Auto scaling, RDS, Load balancing etc, to _create an environment_ for the application to be deployed and run. Its a PaaS.
+
+- Supports the apps developed on only JAVA, GoLang, Python, Node.js, Ruby, .NET, PHP
+- Eg. Upload war file into EBS and configure everything to make it run.
+- Features and Benefits:
+  - Dev productivity
+  - Complete Resource Control
+  - Monitoring, Scaling, Deployment Options, Compliance.
+- Concepts
+  - Application
+  - Application Version
+  - Environment
+  - Environment tier
+  - Environment configuration
+  - Saved configuration
+    
