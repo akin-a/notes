@@ -34,6 +34,5 @@ AWS Outposts
 
 AWS Wavelength
 ===============
-Markup : ![picture alt]([http://via.placeholder.com](https://github.com/akin-a/notes/blob/main/images/AWS%20Wavelength.PNG
-)/200x150 "Title is optional")
+Markup : ![picture alt]([http://via.placeholder.com](https://github.com/akin-a/notes/blob/main/images/AWS%20Wavelength.PNG)/200x150 "Title is optional")
     
