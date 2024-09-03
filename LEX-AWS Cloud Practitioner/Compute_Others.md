@@ -36,4 +36,6 @@ AWS Wavelength
 ===============
 
  ![picture alt](https://raw.githubusercontent.com/akin-a/notes/main/images/AWS%20Wavelength.PNG/200x150 "Title is optional")
+
+  ![alt text](https://github.com/akin-a/notes/blob/main/images/AWS%20Wavelength.PNG)
     
