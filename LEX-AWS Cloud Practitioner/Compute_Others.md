@@ -36,4 +36,12 @@ AWS Wavelength
 ===============
 
 ![alt text](https://github.com/akin-a/notes/blob/main/images/AWS%20Wavelength.PNG)
+
+- AWS Wavelength is an AWS Infrastructure which offers optimized mobile edge computing applications.
+- AWS Wavelength extends the AWS cloud to a global network of 5G edge locations.
+- It allows you to build applications that require **ultra-low latency**.
+- Wavelength zones are currently supported in the US, Japan, South Korea and European regions.
+- Use cases : Game streaming and AR/VR services can use Wavelength to reach end-users with millisecond-level connections
+
+
     
