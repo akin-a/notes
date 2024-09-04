@@ -27,5 +27,26 @@ VPC and Subnets
 ![alt text](https://github.com/akin-a/notes/blob/main/images/VPC6.PNG)
 ![alt text](https://github.com/akin-a/notes/blob/main/images/vpc7.PNG)
 
+Route Table
+-----------
+
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc8.PNG)
+
+- When a VPC is created, a Route Table called as the Main Route Table gets created along with it.
+- All the Subnets in a VPC are implicitly associated with this Main Route Table.
+- The Route table comprises of a set of rules, called as routes that determine the flow of network traffic from your subnet. 
+- Custom Route Tables can also be created. One Subnet can be associated with only a single Route Table.
+
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc9.PNG)
+
+- Every Route in the table has a destination and a target.
+- The **Destination** is a CIDR range of IP address, which specifies where you want the traffic to go.
+- Target specifies, either a gateway, a network interface, or connection through which to send the destination traffic, example an 
+  Internet Gateway.
+- For **communication within the VPC** a Local Route is added in the table by default as shown.
+  Destination for this local route is the CIDR range of the VPC. Target is local.
+  This route ensures that traffic which wants to reach a destination within the
+- Subnets associated with this Route Table, will allow EC2 instances launched within them to communicate with each other because of this 
+  local route.
 
 
