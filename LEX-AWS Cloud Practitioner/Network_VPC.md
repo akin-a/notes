@@ -49,6 +49,6 @@ Route Table
 - Subnets associated with this Route Table, will allow EC2 instances launched within them to communicate with each other because of this 
   local route.
 - To provide public Internet access to the VPC subnets via the Internet Gateway a route with Destination as 0.0.0.0/0 is added, and the 
-  target is the Internet Gateway as shown.
+  target is the Internet Gateway as shown. 
 
 
