@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/30af45c3-3967-48e4-9cfd-6bbd34f2bcca)Amazon VPC
+Amazon VPC
 ==========
 
 - one of the foundational services offered by AWS.
