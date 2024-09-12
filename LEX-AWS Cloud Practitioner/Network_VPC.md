@@ -1,4 +1,4 @@
-Amazon VPC
+![image](https://github.com/user-attachments/assets/30af45c3-3967-48e4-9cfd-6bbd34f2bcca)Amazon VPC
 ==========
 
 - one of the foundational services offered by AWS.
@@ -51,4 +51,33 @@ Route Table
 - To provide public Internet access to the VPC subnets via the Internet Gateway a route with Destination as 0.0.0.0/0 is added, and the 
   target is the Internet Gateway as shown. 
 
+Internet Gateways
+-----------------
+A component which allows communication between VPC and Internet.
+
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc10.PNG)
+
+Security Groups (SGs)
+---------------
+- When an EC2 Instance is launched within a subnet in a VPC, it is associated with a Security Group which is a virtual firewall.
+- Security Groups, control the Inbound and Outbound traffic to and from the Instance.
+
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc11.PNG)
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc12.PNG)
+
+Network Access Control Lists (NACLs)
+------------------------------------
+
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc13.PNG)
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc14.PNG)
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc15.PNG)
+
+NACL vs SG
+-----------
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc16.PNG)
+
+NAT Gateways
+------------
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc17.PNG)
+![alt text](https://github.com/akin-a/notes/blob/main/images/vpc18.PNG)
 
