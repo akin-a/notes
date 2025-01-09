@@ -9,3 +9,7 @@
 - Class is a collection of Objects. It is a logical entitiy.
 - A class can also be defined as a blueprint from which you can create an individual object.
 - Class does not consume any space.
+<br/>
+
+- A class is a template for objects, and an object is an instance of a class.
+- When the individual objects are created, they inherit all the variables and methods from the class.
