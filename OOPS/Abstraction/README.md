@@ -14,3 +14,6 @@
       started, what all components your car has. The car internal implementation and complex logic is completely hidden from the user.
     - We can heat our food in Microwave. We press some buttons to set the timer and type of food. Finally, we get a hot and delicious meal. The microwave internal details are 
       hidden from us. We have been given access to the functionality in a very simple manner.
+<br/>
+
+- Abstraction in Java is implemented through **interfaces** and **abstract classes**. They are used to create a base implementation or contract for the actual implementation classes.
