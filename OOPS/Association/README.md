@@ -10,7 +10,7 @@
    - Many to Many
 - **Practical example** : Let's understand the relationship with real-time examples. For example, a country can have one prime minister (one to one), and a prime minister can have many ministers (one to many). Also, many MP's can have one prime minister (many to one), and many ministers can have many departments (many to many).
 
-Example
+**Example** <br/>
 Consider a library system with Author and Book classes:
 
 ```
