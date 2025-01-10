@@ -44,7 +44,7 @@ If we want to make the relationship bidirectional, we can modify the Author clas
 - In aggregation, the composed object (whole) can exist independently of its parts, and the whole does not manage the lifetime of the parts. If the whole is destroyed, the parts can still exist.
 <br/>
 
-Example,
+**Example** <br/>
 Consider a university system with Department and Professor classes:
 
 ```
@@ -80,8 +80,7 @@ In this example, a Department has a list of Professor objects, representing an a
 - If we delete the parent object, all the child objects will be deleted automatically.
 - A composition is an intense form of association that represents a “has-a” or “part-of” relationship between objects, similar to aggregation. However, in composition, the composed object (entire) is responsible for managing the lifetime of its parts. If the entire is destroyed, its parts are also destroyed.
 
-<br/>
-**Example**
+**Example** <br/>
 
 Consider a computer system with Computer and Processor classes:
 
