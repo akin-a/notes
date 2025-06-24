@@ -54,7 +54,7 @@ EC2 Instance Launch Types and Tenancy
 
 Based on how you want to pay for the EC2 Instances, there are different EC2 Instance Launch types
 - _On-Demand Instance_  : Pay only for duration used, no long term commitment, suited for short term irregular work loads. 
-- _Reserved Instance _  : For predictable long running workloads (like 1 or 3 years), upto 72% discount compared to on demand.
+- _Reserved Instance_  : For predictable long running workloads (like 1 or 3 years), upto 72% discount compared to on demand.
 - _Spot Instance_       : Unused EC2 instances, purchased at very low cost, upto 09% discount compared to on demand.
 
 ### Tenancy ###
